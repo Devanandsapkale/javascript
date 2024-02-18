@@ -35,3 +35,15 @@ for(let i of str){  // i = iterator ----> charector
     console.log("i=",i);
 }
 console.log(str);
+
+//for in loop
+
+let student ={
+    name: "Rahul Kumar",
+    age: 20,
+    cgpa: 7.5,
+    isPass: true
+}
+for(let i in student){
+    console.log("i =", i,"value",student[i]); //for get the i value use "value",student[i]
+}
