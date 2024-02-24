@@ -42,3 +42,7 @@ num.forEach((val) => {
     console.log(val);
 })
 let str =["red","green","pink","orange"]
+
+str.forEach(function color(value){
+    console.log(value);
+})
