@@ -14,6 +14,22 @@ function sum(a,b){
 }
 sum(5,5);
 sum(450,550);
+
+function num(a,b){
+    console.log(a-b);
+}
+num(1505,554);
+function divi(a,b){
+    console.log(a/b);
+}
+num(50,2);
+//return the value
+function sum(x,y){
+    s=x+y;
+    return s;
+}
+let val =sum(5,40);
+console.log(val);
 //multiplication function
 function mul(a,b){
     console.log(a*b);
@@ -27,6 +43,10 @@ const arrowSum = (a,b) => {
     console.log(a + b);
 }
 arrowSum(5,5);
+const arrownum=(a,b) => {
+    console.log(a+b);
+}
+arrownum(50,100);
 // arrow multiplication function
 
 const arrowMul =(a,b) => {
