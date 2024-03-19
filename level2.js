@@ -78,3 +78,11 @@ const great = (a, b) => {
         return "b is greater";
 }
 console.log(great(3, 5));
+
+const less = (a, b) => {
+    if (a < b)
+        return "a is less";
+    else
+        return "b is less";
+}
+console.log(less(3, 5));
