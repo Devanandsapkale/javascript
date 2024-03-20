@@ -86,3 +86,8 @@ const less = (a, b) => {
         return "b is less";
 }
 console.log(less(3, 5));
+
+const add = (a,b) =>{
+    console.log(a+b)
+}
+add(50,50);
