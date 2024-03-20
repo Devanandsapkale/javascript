@@ -91,3 +91,8 @@ const add = (a,b) =>{
     console.log(a+b)
 }
 add(50,50);
+
+function div(a, b) {         
+    console.log(a / b);
+}
+div(6,5)
