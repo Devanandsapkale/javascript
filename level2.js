@@ -1,3 +1,4 @@
+alert("hello js");
 // loops in js
 //print 1 to 5
 for(let count = 1; count<=20; count++){
@@ -58,17 +59,16 @@ for(let i in student){
 function add(a, b) {         
     console.log(a + b);
 }
- 
-// Calling a function
+ // Calling a function
 add(2, 3);
 
 // Function Expression
-const add = function (a, b) {
+const c = function (a, b) {
     console.log(a + b);
 }
  
 // Calling function
-add(2, 3);
+c(2, 3);
 
 
 const great = (a, b) => {
@@ -87,10 +87,10 @@ const less = (a, b) => {
 }
 console.log(less(3, 5));
 
-const add = (a,b) =>{
+const x = (a,b) =>{
     console.log(a+b)
 }
-add(50,50);
+x(50,50);
 
 function div(a, b) {         
     console.log(a / b);
