@@ -20,4 +20,4 @@ console.log(name);
 //replace method
 
 let string="Hello";
-console.log(string.replace("lo","p"));
+console.log(string.replace("lo","p")); 
