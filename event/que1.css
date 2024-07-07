@@ -1,0 +1,6 @@
+button{
+    height: 50px;
+    width: 100px;
+    border: 2px solid rgb(64, 17, 17);
+    border-radius: 10px;
+}
