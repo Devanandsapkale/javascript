@@ -43,3 +43,20 @@ h1{
     color: white;
     border-radius: 1rem;
 }
+#new-game{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+}
+#msg{
+    color: #ffffcf;
+    font-size: 5vmin;
+}
+.msg-container{
+    font-size: 40px;
+}
+.hide{
+    display: none;
+}
