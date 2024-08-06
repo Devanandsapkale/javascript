@@ -14,6 +14,9 @@ console.log(str3);
 console.log("1" + 2);  // it will be concad
 console.log(1 + "2");  // it will be concad
 
+
+
+//pre incriment post incriment pre decrement post decrement
 let score = 100;
 score++
 console.log(score);
@@ -21,6 +24,18 @@ console.log(score);
 let mark = 90;
 mark++
 console.log(mark);
+
+// comparison operators
+
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+
+// ===    compar type also
+
+
+console.log("1" === 1);
+
 
 
 

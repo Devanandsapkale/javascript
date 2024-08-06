@@ -15,9 +15,7 @@
 // undefined ----- not defined
 // symbol --------- unique
 
-//Non primitive data type
 
-//object
  let city = 'pune';
  let rollNum = 33;
  let present = true;
@@ -28,3 +26,28 @@
  console.table(typeof(present));
  console.table(typeof(value));
  console.table(typeof(pass));
+
+ //Non primitive data type
+
+//object array, object, function
+
+// for creat a array we use []
+
+const color = ["orange10", "green", "red","blue"]
+
+// for creat a an object we use { key: value} and store the value is a key
+
+let student1 = {
+    Name : "Dev",
+    Roll : 121,
+
+}
+
+// for creat a function we use---- function(){-------write a code----}
+
+const myFunction = function(){
+    console.log("hello from function");
+}
+
+
+console.table([color,student1]);
