@@ -50,4 +50,4 @@ const myFunction = function(){
 }
 
 
-console.table([color,student1]);
+console.table([color,student1]); 
