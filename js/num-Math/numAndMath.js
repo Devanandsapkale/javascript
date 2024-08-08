@@ -24,8 +24,12 @@
 // console.log(Math.min(5,7,2,6,8,9,3,));
 // console.log(Math.max(5,7,2,6,8,9,3,));
 
-console.log(Math.random());
-console.log(Math.random());
+console.log(Math.floor(Math.random()*10 + 1));
+
+
+
+
+
 
 
 
