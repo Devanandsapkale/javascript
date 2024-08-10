@@ -18,7 +18,9 @@ console.log(ral_another_Arr);
 
 
 console.log(Array.isArray("Sitaram")); // give out put in boolean  is this arr or not 
-console.log(Array.from("Sitaram")); // convert into array
+console.log(Array.from("Sitaram")); // convert into array 
+console.log(Array.of("deva"));
+
 console.log(Array.from({name : "deva"})); // not convet directly  *********** out put mt aaray
 
 let score1 = 100;
