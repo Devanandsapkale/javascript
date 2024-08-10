@@ -18,7 +18,7 @@ console.log(myCreatedDate.toLocaleString());
 
 // timestamp
 
-let myTimeStamp = Date.now()
+let myTimeStamp = Date.now() // use get current time
 // console.log(myTimeStamp);
 // console.log(myCreatedDate.getTime());
 // console.log(Math.floor(Date.now()/1000)); //now use for current time
